@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bnviewpager.viewpageriteminbnv.View.FragmentKedua"
+    android:background="#A3E251">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/foto"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="88dp"
+            android:contentDescription="TODO"
+            android:src="@mipmap/foto" />
+
+        <TextView
+            android:id="@+id/nim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/foto"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/nim"
+            android:textColor="@color/splash"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nim"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/splash"
+            android:text="@string/nama"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/kelas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nama"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/splash"
+            android:text="@string/kelas"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/deskripsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/splash"
+            android:layout_below="@+id/kelas"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/deskripsi"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+</FrameLayout>

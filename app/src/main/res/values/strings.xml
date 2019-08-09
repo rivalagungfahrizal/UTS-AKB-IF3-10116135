@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">UTS Kontak</string>
+    <string name="title_home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="kontak">Kontak</string>
+    <string name="daftar_teman">Daftar Teman</string>
+    <string name="third_fragment">Third Fragment</string>
+    <string name="nim">10116135</string>
+    <string name="nama">Rival Agung Fahrizal</string>
+    <string name="kelas">IF-3</string>
+    <string name="deskripsi">Lulusan : SMKN 1 Sukabumi, SMPN 1 Cikarang Utara, SDN Kebonjati</string>
+    <string name="telepon">082111298979</string>
+    <string name="deskripsi_aplikasi">Aplikasi yang menampilkan profil dan kontak pribadi dan juga teman</string>
+    <string name="sosmed">https://www.facebook.com/rival.fafurizaru</string>
+    <string name="email">rivalagungfahrizal.mahasiswa.unikom.ac.id</string>
+    <string name="third_frag_title">Kontak</string>
+    <string name="welcome">Welcome</string>
+    <string name="selamat_datang">Selamat datang!!!</string>
+</resources>
